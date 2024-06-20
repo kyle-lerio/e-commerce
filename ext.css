@@ -1,0 +1,85 @@
+/* General styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #2b2b2b;
+    color: #eaeaea;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.main-header {
+    background-color: #111;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.main-header .main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.main-header .main-nav ul li {
+    margin: 0 15px;
+}
+
+.main-header .main-nav ul li a {
+    color: #ff4500;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.main-header .main-nav ul li a:hover {
+    color: #fff;
+}
+
+.main-header .band-name {
+    font-size: 2.5em;
+    margin: 10px 0;
+    color: #ff4500;
+    font-family: 'Bangers', cursive;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.section-header {
+    font-size: 2em;
+    margin: 20px 0;
+    text-align: center;
+    border-bottom: 2px solid #ff4500;
+    padding-bottom: 10px;
+}
+
+.about-us-content {
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.subsection-header {
+    font-size: 1.5em;
+    color: #ff4500;
+    margin: 20px 0 10px 0;
+}
+
+p {
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+/* Footer */
+.main-footer {
+    background-color: #111;
+    text-align: center;
+    padding: 10px 0;
+    color: #eaeaea;
+}
